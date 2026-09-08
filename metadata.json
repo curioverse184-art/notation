@@ -1,0 +1,6 @@
+{
+  "name": "Pianotastic Notation Studio",
+  "description": "A professional web-based music notation application for Pianotastic Academy with structured score model, Grand Staff piano notation, playback, and MIDI support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

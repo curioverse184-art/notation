@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply antialiased bg-stone-100 text-stone-900;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #app-header,
+  #main-toolbar,
+  #left-tool-palette,
+  #properties-panel,
+  #bottom-playback-bar,
+  #virtual-piano-panel {
+    display: none !important;
+  }
+
+  .score-page {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    page-break-after: always;
+    break-after: page;
+  }
+}
